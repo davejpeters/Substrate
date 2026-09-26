@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "key": "emissionsPm25",
+    "name": "PM2.5 emissions excluding wildfires",
+    "unit": "thousand short tons",
+    "class": "pollution",
+    "source": "U.S. EPA National Emissions Inventory trends",
+    "sourceUrl": "https://www.epa.gov/system/files/other-files/2026-09/national_tier1_caps_04sep2026.xlsx",
+    "note": "Pollutant-specific worksheet, Total without wildfires row, annual year columns. EPA's own estimates throughout: EPA publishes no PM2.5 total without wildfires before 2002, so this line begins in 2002; 2002–2019 EQUATES-modeled, and the years after the latest full NEI (2020 onward) interpolated or projected by EPA; no interpolation performed here. EQUATES-modeled 2002–2019; 2020–2025 are EPA interpolated or projected estimates pending the next full inventory.",
+    "breaks": "EQUATES-modeled 2002–2019; 2020–2025 are EPA interpolated or projected estimates pending the next full inventory.",
+    "cadence": "annual",
+    "annualRule": "Publisher annual calendar-year observation; incomplete current years excluded.",
+    "goodDirection": "neutral",
+    "coverage": "2002–2025",
+    "fetched": "2026-09-11T21:49:21.102Z"
+  },
+  "data": {
+    "2002": 4443.0189953358995,
+    "2003": 4610.909089337901,
+    "2004": 4809.9257831074,
+    "2005": 4962.1714345574,
+    "2006": 4735.099518954201,
+    "2007": 4622.2226546731,
+    "2008": 4618.9514019641,
+    "2009": 4368.3279422152,
+    "2010": 4456.0360442635,
+    "2011": 4474.8813143677,
+    "2012": 4223.2486389037,
+    "2013": 4144.8951012298,
+    "2014": 4113.270627408199,
+    "2015": 3877.3825430292004,
+    "2016": 4031.5088312085004,
+    "2017": 4338.6517500389,
+    "2018": 4343.2123566116,
+    "2019": 4130.859793974801,
+    "2020": 4145.889569368799,
+    "2021": 4578.1184266616,
+    "2022": 4554.718740728001,
+    "2023": 3941.8825740622997,
+    "2024": 4233.6001625523,
+    "2025": 4233.6001625723
+  }
+}

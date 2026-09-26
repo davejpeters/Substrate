@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "key": "population65Share",
+    "name": "Resident population age 65 and older",
+    "unit": "%",
+    "source": "computed from U.S. Census Bureau Population Estimates Program age-group counts (65 and older divided by total)",
+    "sourceUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/national/asrh/nc-est2025-agesex.xlsx",
+    "historicalSourceUrls": [
+      "https://www2.census.gov/programs-surveys/popest/tables/2000-2010/intercensal/national/us-est00int-01.xls",
+      "https://www2.census.gov/programs-surveys/popest/tables/2010-2020/intercensal/national/asrh/nc-est2020int-agesex.xlsx"
+    ],
+    "note": "Computed from all-sexes age-65-and-older counts divided by all-sexes total resident population. Vintage list: 2000–2010 intercensal estimates for 2000–2009; 2010–2020 intercensal estimates for 2010–2019; Vintage 2025 estimates for 2020–2025. Newer vintage wins at 2010 and 2020. The 1970–1999 extension is deferred: the historical Census workbooks cover resident population plus armed forces overseas, or single-year ages without a published median, so they are not joined.",
+    "goodDirection": "neutral",
+    "cadence": "annual",
+    "annualRule": "July 1 resident population estimate; one observation per calendar year.",
+    "class": "population",
+    "breaks": "Intercensal/vintage splice at 2010 and 2020; census-base revisions can change estimates. July annual estimates are not replaced by April census/base observations.",
+    "coverage": "2000–2025",
+    "fetched": "2026-09-11T21:50:50.249Z"
+  },
+  "data": {
+    "2000": 12.43,
+    "2001": 12.38,
+    "2002": 12.35,
+    "2003": 12.36,
+    "2004": 12.36,
+    "2005": 12.4,
+    "2006": 12.46,
+    "2007": 12.56,
+    "2008": 12.75,
+    "2009": 12.92,
+    "2010": 13.09,
+    "2011": 13.28,
+    "2012": 13.75,
+    "2013": 14.13,
+    "2014": 14.51,
+    "2015": 14.87,
+    "2016": 15.25,
+    "2017": 15.63,
+    "2018": 16.03,
+    "2019": 16.47,
+    "2020": 16.87,
+    "2021": 17.3,
+    "2022": 17.7,
+    "2023": 18.1,
+    "2024": 18.47,
+    "2025": 18.91
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "key": "aggravatedAssaultRate",
+    "name": "Aggravated assault",
+    "unit": "reported offenses per 100,000 people covered by reporting agencies",
+    "source": "computed from FBI Crime Data Explorer monthly participating-agency offense counts, per 100,000 covered population (not the FBI's estimated national rate)",
+    "sourceUrl": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend",
+    "historicalSourceUrls": [
+      "https://api.usa.gov/crime/fbi/cde/summarized/national/aggravated-assault"
+    ],
+    "goodDirection": "down",
+    "cadence": "annual",
+    "annualRule": "annual (sum of twelve monthly actual counts / December population × 100,000)",
+    "class": "reported",
+    "note": "Annual rate computed here as the sum of twelve monthly reported offense counts divided by the December population covered by reporting agencies, times 100,000; the FBI's own displayed annual rate can differ from this figure. Only complete calendar years are included. Denominator: the population covered by agencies that reported that month, the FBI's own basis for its CDE rates, so this line is not the same construct as the estimated national rates (violent, property, homicide) beside it, which the FBI estimates for the whole population. Agency coverage of the U.S. population ranged 74.1–98.4% across 2000–2024 (74.1–79.1% during the 2021 NIBRS transition).",
+    "breaks": "2021 SRS→NIBRS-only transition changed agency participation and estimation. The 2013 federal rape/sexual-assault definition change is not a direct definition change for this non-rape offense. FBI’s 2013 Rape Addendum describes changes to rape, sodomy and sexual assault with an object, not these offense definitions: https://ucr.fbi.gov/crime-in-the-u.s/2013/crime-in-the-u.s.-2013/rape-addendum.",
+    "method": "prior build retained after a rate-limited refetch",
+    "bounds": [
+      0,
+      10000
+    ],
+    "coverage": "2000–2024",
+    "fetched": "2026-09-11T23:07:05.621Z",
+    "sourceRead": "2026-09-10"
+  },
+  "data": {
+    "2000": 343.1,
+    "2001": 334.4,
+    "2002": 321.6,
+    "2003": 307.4,
+    "2004": 299.9,
+    "2005": 300,
+    "2006": 296.7,
+    "2007": 292.2,
+    "2008": 281.1,
+    "2009": 268.2,
+    "2010": 256,
+    "2011": 243.6,
+    "2012": 245.2,
+    "2013": 234.1,
+    "2014": 231.7,
+    "2015": 240.2,
+    "2016": 250.6,
+    "2017": 252,
+    "2018": 248.4,
+    "2019": 250,
+    "2020": 278.8,
+    "2021": 249.7,
+    "2022": 277.9,
+    "2023": 269.8,
+    "2024": 257.5
+  }
+}

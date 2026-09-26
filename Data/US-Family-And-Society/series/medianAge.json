@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "key": "medianAge",
+    "name": "Median age of the resident population",
+    "unit": "years",
+    "source": "U.S. Census Bureau, Population Estimates Program",
+    "sourceUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/national/asrh/nc-est2025-agesex.xlsx",
+    "historicalSourceUrls": [
+      "https://www2.census.gov/programs-surveys/popest/tables/2000-2010/intercensal/national/us-est00int-01.xls",
+      "https://www2.census.gov/programs-surveys/popest/tables/2010-2020/intercensal/national/asrh/nc-est2020int-agesex.xlsx"
+    ],
+    "note": "Published all-sexes median age, rounded to two decimals; the 2000–2010 workbook carries additional underlying precision. Vintage list: 2000–2010 intercensal estimates for 2000–2009; 2010–2020 intercensal estimates for 2010–2019; Vintage 2025 estimates for 2020–2025. Newer vintage wins at 2010 and 2020. The 1970–1999 extension is deferred: the historical Census workbooks cover resident population plus armed forces overseas, or single-year ages without a published median, so they are not joined.",
+    "goodDirection": "neutral",
+    "cadence": "annual",
+    "annualRule": "July 1 resident population estimate; one observation per calendar year.",
+    "class": "population",
+    "breaks": "Intercensal/vintage splice at 2010 and 2020; census-base revisions can change estimates. July annual estimates are not replaced by April census/base observations.",
+    "coverage": "2000–2025",
+    "fetched": "2026-09-11T21:50:50.249Z"
+  },
+  "data": {
+    "2000": 35.36,
+    "2001": 35.56,
+    "2002": 35.75,
+    "2003": 35.94,
+    "2004": 36.1,
+    "2005": 36.28,
+    "2006": 36.49,
+    "2007": 36.7,
+    "2008": 36.89,
+    "2009": 37.06,
+    "2010": 37.2,
+    "2011": 37.3,
+    "2012": 37.5,
+    "2013": 37.6,
+    "2014": 37.7,
+    "2015": 37.9,
+    "2016": 38,
+    "2017": 38.1,
+    "2018": 38.4,
+    "2019": 38.6,
+    "2020": 38.7,
+    "2021": 38.9,
+    "2022": 39,
+    "2023": 39.1,
+    "2024": 39.2,
+    "2025": 39.4
+  }
+}
